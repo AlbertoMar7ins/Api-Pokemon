@@ -1,0 +1,193 @@
+/* TAGS HTML */
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap');
+
+    html {
+        cursor: url("cur.png"), auto;
+    }
+    font {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+    }
+    body {
+        background: url(wallpaper.jpg);
+        background-size: 100%;
+    }
+    h2 {
+        color:rgba(255, 255, 255, 0.479);
+    }
+    h3 {
+        color:rgb(45, 82, 34);
+        font-size: 35px;
+        position: absolute;
+        left: 49%;
+        top: 18%;
+    }
+    h4 {
+        color: rgba(255, 255, 255, 0.479);
+        text-align: left;
+        padding-left: 5%;
+    }
+    td {
+        color:rgba(255, 255, 255, 0.37);
+    }
+
+    hr {
+        border-color: rgba(255, 255, 255, 0.219);
+    }
+
+/* CSS-Página */
+
+    ::selection {
+        color:rgb(33, 88, 51);
+        background-color: rgba(207, 207, 207, 0.089);
+    }
+    ::placeholder {
+        color:rgba(255, 255, 255, 0.185);
+    }
+    
+
+/* CSS */
+
+    .img {
+        position: relative;
+        left: -2%;
+    }
+    .content {
+        position: top;
+        background: #0000009d;
+        color: #fff;
+        width: 40%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .content2 {
+        position: top;
+        background: #ffffff07;
+        color: #fff;
+        width: 90%;     
+        height: 40%;
+        border-radius: 10px;
+    }
+    .content3 {
+        position: relative;
+        top: 50px;
+        background: #0000009d;
+        color: #fff;
+        width: 35%;
+        height: 90%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .content4 {
+        position: middle;
+        background: #ffffff07;
+        color: #fff;
+        width: 90%;     
+        height: 40%;
+        border-radius: 10px;
+    }
+    .content5 {
+        position: top;
+        background: #0000009d;
+        color: #fff;
+        width: 50%;
+        height: 90%;
+        padding: 5px;
+        border-radius: 10px;
+    }
+    .content6 {
+        position: top;
+        background: #0000009d;
+        color:#fff;
+        width: 20%;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    .button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        border: none;
+        background-color: rgb(33, 88, 51);
+        width: 20%;
+        transition: 0.5s;
+        border-radius: 5px;
+    }
+    .button:hover{
+        background: rgb(60, 160, 93);
+        color: white;
+        cursor: url("cur.png"), auto;
+    }
+    .button2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        border: none;
+        background-color: rgb(33, 88, 51);
+        width: 90%;
+        height: 30px;
+        border-radius: 5px;
+        background-image: -webkit-linear-gradient(45deg, rgb(52, 141, 82) 50%, transparent 50%);
+        background-position: 100%;
+        background-size: 250%;
+        -webkit-transition: background 200ms ease-in-out;
+        transition: background 200ms ease-in-out;
+    }
+    .button2:hover{
+        background-position: 6;
+        background-size: 160%;
+        transform: scale(1.05);
+        cursor: url("cur.png"), auto;
+    }
+    .button3 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        border: none;
+        background-color: rgb(33, 88, 51);
+        color: black;
+        width: 35%;
+        transition: 0.5s;
+        border-radius: 5px;
+    }
+    .button3:hover{
+        background: rgb(60, 160, 93);
+        color: white;
+        cursor: url("cur.png"), auto;
+    }
+    .buttonhome {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        border: none;
+        background-color: #ffffff07;
+        color: rgba(255, 255, 255, 0.418);
+        width: 15%;
+        transition: 1s;
+        border-radius: 5px;
+    }
+    .buttonhome:hover{
+        position: relative;
+        color: rgb(21, 39, 39);
+        cursor: url("cur.png"), auto;
+    }
+    .caixa {
+        position: center;
+        border: none;
+        border-radius: 5px;
+        height: 20px;
+        background-color: rgba(255, 255, 255, 0.144);
+    }
+    .caixa:hover {
+        background-color: rgba(255, 255, 255, 0.377);
+        transition: 0.4s;
+        cursor: url("cur.png"), auto;
+    }
+    .caixa:focus {
+        background-color: rgba(255, 255, 255, 0.377);
+    }
+    .middle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+/* outro cursor test: http://www.rw-designer.com/cursor-view/177490.png */
